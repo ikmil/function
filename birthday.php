@@ -3,6 +3,7 @@
 *这里的日期从数据库中提取出来，如果是time生成的时间
 *戳则许转换成这种日期格式，因为time时间戳默认带有十
 *分秒，没有计算的必要
+ * powerd by yzq
 */
 $birthday="2015-08-11";
 $dayNumber=birthday($birthday);
